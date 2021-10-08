@@ -24,7 +24,7 @@ function calcular(){
 
     resultado.innerHTML = `<p>${qdtTotalCarne / 1000} Kg de Carne </p>`
     resultado.innerHTML += `<p>${Math.ceil(qdtTotalCerveja / 355)} Latas de Cerveja </p>`
-    resultado.innerHTML += `<p>${Math.ceil(qdtTotalBebidas / 2000)} Pet's de 2 litros Bebida</p>`
+    resultado.innerHTML += `<p>${Math.ceil(qdtTotalBebidas / 2000)} Pet's de 2 litros de bebida</p>`
     
 }
 

@@ -38,37 +38,44 @@ img{
 h1{
     color: rgb(75, 19, 19);
 }
-button {
-    margin-right: 60%;
-    box-shadow: inset 0px 1px 0px 0px  burlywood;
-    background: linear-gradient(to bottom, #f4d8a9 5%, #f4d8a9 100%);
-    border-radius: 6px;
-    border: 1px solid #ffaa22;
-    display: inline-block;
-    cursor: pointer;
-    color: #333333;
-    font-family: Arial;
-    font-size: 15px;
-    font-weight: bold;
-    padding: 6px 20px;
-    text-decoration: none;
-    text-shadow: 0px 1px 0px #ffee66;
+Button {
+	background:linear-gradient(to bottom,  rgb(75, 19, 19) 5%,  rgb(75, 19, 19) 100%);
+	border-radius:6px;
+	border:1px solid rgb(104, 31, 31);
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 76px;
+	text-decoration:none;
 }
+Button:hover {
+	background:linear-gradient(to bottom, rgb(94, 31, 31) 5%, rgb(92, 26, 26) 100%);
+}
+Button:active {
+	position:relative;
+	top:1px;
+}
+
+    
 
 input {
     width: 90%;
     padding: 8px;
     font-size: 16px;
-    border-width: 2px;
     border-color: a52a2a;
     background-color: #ffffff;
     color: #000000;
-    border-style: solid;
     border-radius: 8px;
     margin-bottom: 15px;
     border-color:rgb(75, 19, 19) ;
+    -moz-appearance: none;
+    -webkit-appearance: none;
     
 }
+
 input:focus {
     outline:none;
 }
